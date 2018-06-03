@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/bootstrap.min.css';
+@import './assets/spinner.css';
+
+.app-alert {
+  opacity: 0;
+}
+
+.app-alert.show {
+  opacity: 1;
+}
+
+.app-fixed {
+  position: fixed !important;
+}
+
+.app-modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.app-modal-init {
+  position: unset;
+}
+
+.app-show {
+  display: block;
+}
